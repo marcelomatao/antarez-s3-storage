@@ -11,7 +11,7 @@ pub mod presigned;
 pub mod types;
 
 // Re-exports — uncommented as types are implemented in each step.
-// pub use client::S3Client;
+pub use client::S3Client;
 pub use config::{BackendType, S3Config};
 pub use error::S3Error;
 pub use types::{ObjectMeta, PresignedUrl, UploadResult};
